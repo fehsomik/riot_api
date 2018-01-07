@@ -1,0 +1,9 @@
+  <h1>
+    Busca Invocador
+    <br>
+    <input type="text" [(ngModel)]=summonerName >
+    <button (click)=searchSummoner()>Search</button>
+  </h1>
+  <h2>{{summonerNameDisplay}} <img src={{summonerIcon}} width="48" height="48"></h2>
+  <h2>Elo: {{summonerTier}} {{summonerRank}}</h2>
+
